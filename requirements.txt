@@ -1,0 +1,36 @@
+# requirements.txt
+
+# FastAPI Core
+fastapi
+
+# ASGI Server
+uvicorn[standard]
+
+# ORM
+sqlalchemy
+
+# Database Driver (pour PostgreSQL - changez si vous utilisez une autre BDD)
+# Si vous utilisez SQLite, vous n'avez pas besoin de driver externe.
+# Si vous utilisez MySQL, vous pourriez utiliser: mysqlclient ou pymysql
+psycopg2-binary
+
+# Pydantic (souvent inclus avec FastAPI, mais bon à lister)
+# Pas besoin de le lister explicitement sauf si version spécifique requise
+
+# Pour lire les variables d'environnement (.env)
+python-dotenv
+
+# Pour les migrations de base de données (optionnel mais recommandé)
+alembic
+
+# Pour la simulation (sera utilisé plus tard)
+scipy
+
+# Pour les appels API depuis le dashboard (sera utilisé plus tard)
+requests
+
+# Pour le dashboard (choisir l'un ou l'autre plus tard)
+# dash
+# plotly
+# ou
+# streamlit
