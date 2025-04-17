@@ -5,24 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44331219-6dae-43e6-b23f-47dca19851df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/intelligent-employee-management.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/api_v1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/api_v1/endpoints/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/crud/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/api_v1/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/api_v1/endpoints/departements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/api_v1/endpoints/employes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/api_v1/endpoints/evaluations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/api_v1/endpoints/pointages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/api_v1/endpoints/simulations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/crud/crud_departement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/crud/crud_employe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/crud/crud_evaluation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/crud/crud_pointage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/crud/crud_simulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/db/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/departement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/employe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/evaluation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/pointage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/simulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/departement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/employe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/evaluation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/pointage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/schemas/simulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/services/simulation_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/crud/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/crud/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +51,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2vnjD2VE9gBQPIreHnQVAI558lr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,6 +71,7 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true"
